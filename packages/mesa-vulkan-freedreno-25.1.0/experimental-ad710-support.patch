@@ -33,7 +33,7 @@ diff -uNr mesa-vulkan-freedreno-25.0.3/src/freedreno/drm-shim/freedreno_noop.c m
        .gmem_size = 1024 * 1024 + 512 * 1024,
     },
     {
-+      .gpu_id = 710
++      .gpu_id = 710,
 +      .chip_id = 0x07010000,
 +      .gmem_size = 2 * 1024 * 1024,
 +   },
